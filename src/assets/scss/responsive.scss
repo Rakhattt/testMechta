@@ -1,0 +1,133 @@
+body * {
+  font-family: "Inter", sans-serif;
+}
+.container {
+  width: 1350px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1500px) {
+  .container {
+    width: 90%;
+  }
+  .product-price {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .products {
+    grid-template-columns: repeat(3, 31.5%);
+  }
+  .search-bar {
+    width: auto;
+  }
+  .product-detail_left {
+    padding: 40px 100px;
+  }
+  .product-detail_image {
+    width: 420px;
+    height: 470px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .product-detail_image {
+    width: 390px;
+    height: 420px;
+  }
+  .product-detail_button {
+    padding: 10px 30px;
+    font-size: 20px;
+  }
+  .product-detail_left {
+    padding: 40px 70px;
+  }
+  .product-detail_title {
+    font-size: 28px;
+  }
+  .product-detail_pr {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .product-detail_image {
+    width: 370px;
+    height: 400px;
+  }
+  .product-detail_left {
+    padding: 30px 50px;
+  }
+  .filter {
+    display: none;
+  }
+  .filter-select {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .products {
+    grid-template-columns: repeat(2, 47.5%);
+  }
+  .logo {
+    width: 90px;
+    height: 30px;
+    margin-right: 20px;
+  }
+  .icons {
+    margin-left: 20px;
+    gap: 10px;
+  }
+  .product-detail_wrap {
+    flex-direction: column;
+  }
+  .product-detail_left {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .product-detail-wrapper {
+    justify-content: space-between;
+  }
+  .product-detail-text_left {
+    width: auto;
+  }
+}
+@media screen and (max-width: 700px) {
+  .product-wrap {
+    flex-direction: column;
+    align-items: initial;
+  }
+  .product-cart_img {
+    margin: 0 auto;
+  }
+  .product-cart_icon {
+    margin-top: 10px;
+  }
+  .product-price {
+    font-size: 22px;
+  }
+  .logo {
+    display: none;
+  }
+  .product-detail_title {
+    font-size: 24px;
+  }
+  .product-detail_price {
+    font-size: 22px;
+  }
+  .product-detail_block{
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .products {
+    grid-template-columns: repeat(1, 98.5%);
+  }
+  .search-bar {
+    padding: 7px 15px;
+  }
+  .product-detail_left {
+    padding: 20px 30px;
+  }
+}

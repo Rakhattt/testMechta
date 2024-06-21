@@ -1,0 +1,39 @@
+.filter {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border: 1px solid #e7e7e7;
+  border-radius: 16px;
+}
+.filter span {
+  margin-right: 10px;
+}
+.filter button {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.filter-item {
+    cursor: pointer;
+    margin-right: 10px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    padding: 0;
+    color: #000; /* Change to the desired color */
+    font-size: 16px; /* Adjust font size if needed */
+    &:hover {
+        opacity: 0.7;
+
+    }
+}
+.filter-item.active {
+  color: $second;
+  border-bottom: 2px solid $second;
+}
+.filter-select {
+  display: none;
+}
+.filter-select_items {
+  border: 1px solid #F0F0F0;
+  padding: 6px 20px 6px 12px;
+}
